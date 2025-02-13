@@ -1,0 +1,30 @@
+# Local Terraform settings and cache
+.terraform/
+.terraform.lock.hcl
+
+# Terraform variable files (often contain sensitive data)
+*.tfvars
+*.tfvars.json
+
+# Crash logs (in case Terraform crashes)
+crash.log
+
+# Terraform plan output files
+*.tfplan
+
+# Override files (used for local settings)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore private SSH keys (if used)
+*.pem
+*.key
+
+# Ignore any backup files created by Terraform
+*.bak
+
+# Ignore state files (contains sensitive data)
+terraform.tfstate
+terraform.tfstate.backup
